@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  get 'page/home'
+  root 'page#home'
 
-  get 'page/our-services'
+  get 'page/services'
 
   get 'page/about'
 
-  get 'page/our-job'
+  get 'page/job'
 
   get 'page/contact'
 

@@ -2,13 +2,13 @@ class PageController < ApplicationController
   def home
   end
 
-  def our-services
+  def services
   end
 
   def about
   end
 
-  def our-job
+  def job
   end
 
   def contact
